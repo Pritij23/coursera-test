@@ -1,9 +1,4 @@
-(function(){
-    var byespeaker={};
-    var speakword="good bye";
-    byespeaker.speak=function(names){
-        console.log(speakword+""+names);
-    }
-        window.byespeaker=byespeaker;
-
-    })();
+var speakword="goodbye";
+function speak(names){
+    console.log(speakword+""+names);
+}
